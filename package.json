@@ -1,0 +1,23 @@
+{
+  "name": "samplecursor",
+  "version": "1.0.0",
+  "description": "JavaScript Playwright test automation framework",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:smoke": "playwright test --grep \"@smoke\"",
+    "test:chrome": "playwright test --project=chromium",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "QA Team",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "dotenv": "^17.4.2"
+  }
+}
